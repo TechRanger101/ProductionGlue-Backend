@@ -33,9 +33,35 @@ class AmazonAPI:
         print('Stating script...')
         print(f'Looking for {self.search_term} products...')
         links = self.get_products_links()
-        print(links)
-        time.sleep(3)
+        time.sleep(1)
+        if not links:
+            print('Script Stopped.....!')
+            return
+        print(f'Got {len(links)} links to products....')
+        print('Getting info about products....')
+        product = self.get_products_info(links)
         self.driver.quit()
+
+    def get_products_info(self, links):
+        asins = self.get_asins(links)
+        product = []
+        for asin in asins:
+            product = self.get_single_product_info(asin)
+
+    def get_single_product_info(self, asin):
+        print(f"Product ID: {asin} - getting data....")
+        product_short_url = self.shorten_url(asin)
+        self.driver.get(f'{product_short_url}?language=en_GB')
+        time.sleep(2)
+
+    def shorten_url(self, asin):
+        return self.base_url + 'dp/' + asin
+
+    def get_asins(self, links):
+        return [self.get_asin(link) for link in links]
+
+    def get_asin(self, product_link):
+        return product_link[product_link.find('/dp/') + 4:product_link.find('/ref/')]
 
     def get_products_links(self):
         self.driver.get(self.base_url)
@@ -55,12 +81,12 @@ class AmazonAPI:
             results = self.driver.find_elements_by_xpath(
                 '//a[@class = "a-link-normal s-no-outline"]')
             links = [link.get_attribute('href') for link in results]
-            return links
 
         except Exception as e:
             print("Did'nt get any product....")
             print(e)
-            return links
+
+        return links
 
 
 if __name__ == '__main__':
