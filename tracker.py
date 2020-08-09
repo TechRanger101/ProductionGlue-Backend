@@ -71,7 +71,7 @@ class AmazonAPI:
         links = []
         try:
             results = self.driver.find_elements_by_xpath(
-                '//a[@class = "a-link-normal s-no-outline"]')
+                '//div[@class="a-section a-spacing-none"]/span/a')
             links = [link.get_attribute('href') for link in results]
 
         except Exception as e:
@@ -157,7 +157,13 @@ class AmazonAPI:
         return [self.getAsin(link) for link in links]
 
     def getAsin(self, product_link):
-        return product_link[product_link.find('/dp/') + 4:product_link.find('/ref')]
+        if '.html' in product_link:
+            asin = product_link[product_link.find(
+                '%2Fdp%2F')+8:product_link.find('%2Fref')]
+        else:
+            asin = product_link[product_link.find(
+                '/dp/') + 4:product_link.find('/ref')]
+        return asin
 
     def convertPrice(self, price):
         exp = " ," + self.currency

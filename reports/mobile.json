@@ -1,1 +1,51 @@
-{"title": "mobile", "date": "09/08/2020 19:55:57", "best_item": {"asin": "B087K78FD5", "url": "http://www.amazon.in/dp/B087K78FD5", "title": "Tecno Spark 5 Pro (Seabed Blue, 4GB RAM, 64GB Storage)", "seller": "Tecno", "price": 10499.0}, "currency": "\u20b9", "filters": {"min": "10000", "max": "20000"}, "base_link": "http://www.amazon.in/", "products": [{"asin": "B07HGGYWL6", "url": "http://www.amazon.in/dp/B07HGGYWL6", "title": "Samsung Galaxy M31 (Ocean Blue, 6GB RAM, 128GB Storage)", "seller": "Samsung", "price": 17499.0}, {"asin": "B07SDPJ4XJ", "url": "http://www.amazon.in/dp/B07SDPJ4XJ", "title": "OPPO A5 2020 (Dazzling White, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers", "seller": "Oppo", "price": 11990.0}, {"asin": "B07X1KT6LF", "url": "http://www.amazon.in/dp/B07X1KT6LF", "title": "Redmi Note 8 (Neptune Blue, 6GB RAM, 128GB Storage)", "seller": "Redmi", "price": 14999.0}, {"asin": "B07HGH8D2R", "url": "http://www.amazon.in/dp/B07HGH8D2R", "title": "Samsung Galaxy M21 (Raven Black, 4GB RAM, 64GB Storage)", "seller": "Samsung", "price": 13999.0}, {"asin": "B087K78FD5", "url": "http://www.amazon.in/dp/B087K78FD5", "title": "Tecno Spark 5 Pro (Seabed Blue, 4GB RAM, 64GB Storage)", "seller": "Tecno", "price": 10499.0}]}
+{
+  "title": "mobile",
+  "date": "09/08/2020 22:26:48",
+  "currency": "\u20b9",
+  "filters": { "min": "10000", "max": "20000" },
+  "base_link": "http://www.amazon.in/",
+  "products": [
+    {
+      "asin": "B07SDPJ4XJ",
+      "url": "http://www.amazon.in/dp/B07SDPJ4XJ",
+      "title": "OPPO A5 2020 (Dazzling White, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
+      "seller": "Oppo",
+      "price": 11990.0
+    },
+    {
+      "asin": "B07HGGYWL6",
+      "url": "http://www.amazon.in/dp/B07HGGYWL6",
+      "title": "Samsung Galaxy M31 (Ocean Blue, 6GB RAM, 128GB Storage)",
+      "seller": "Samsung",
+      "price": 17499.0
+    },
+    {
+      "asin": "B07X1KT6LF",
+      "url": "http://www.amazon.in/dp/B07X1KT6LF",
+      "title": "Redmi Note 8 (Neptune Blue, 6GB RAM, 128GB Storage)",
+      "seller": "Redmi",
+      "price": 14999.0
+    },
+    {
+      "asin": "B087K78FD5",
+      "url": "http://www.amazon.in/dp/B087K78FD5",
+      "title": "Tecno Spark 5 Pro (Seabed Blue, 4GB RAM, 64GB Storage)",
+      "seller": "Tecno",
+      "price": 10499.0
+    },
+    {
+      "asin": "B07HGH8D2R",
+      "url": "http://www.amazon.in/dp/B07HGH8D2R",
+      "title": "Samsung Galaxy M21 (Raven Black, 4GB RAM, 64GB Storage)",
+      "seller": "Samsung",
+      "price": 13999.0
+    },
+    {
+      "asin": "B08444XVNP",
+      "url": "http://www.amazon.in/dp/B08444XVNP",
+      "title": "OPPO A31 (Fantasy White, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
+      "seller": "Oppo",
+      "price": 12490.0
+    }
+  ]
+}
