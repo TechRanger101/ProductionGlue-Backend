@@ -1,0 +1,107 @@
+{
+  "title": "ps4",
+  "date": "09/08/2020 19:23:45",
+  "best_item": {
+    "asin": "B07HNR4ZZD",
+    "url": "http://www.amazon.de/dp/B07HNR4ZZD",
+    "title": "PlayStation4 - Konsole (500GB, schwarz, slim)",
+    "seller": "Sony Interactive Entertainment",
+    "price": 285.0
+  },
+  "currency": "\u20ac",
+  "filters": { "min": "275", "max": "650" },
+  "base_link": "http://www.amazon.de/",
+  "products": [
+    {
+      "asin": "B085PB4B6J",
+      "url": "http://www.amazon.de/dp/B085PB4B6J",
+      "title": "PlayStation 4 Pro - Konsole (1 TB, schwarz) PS Hits Naughty Dog Bundle",
+      "seller": "Sony Interactive Entertainment",
+      "price": 416.84
+    },
+    {
+      "asin": "B07HNR4ZZD",
+      "url": "http://www.amazon.de/dp/B07HNR4ZZD",
+      "title": "PlayStation4 - Konsole (500GB, schwarz, slim)",
+      "seller": "Sony Interactive Entertainment",
+      "price": 285.0
+    },
+    {
+      "asin": "B085PB4B6J",
+      "url": "http://www.amazon.de/dp/B085PB4B6J",
+      "title": "PlayStation 4 Pro - Konsole (1 TB, schwarz) PS Hits Naughty Dog Bundle",
+      "seller": "Sony Interactive Entertainment",
+      "price": 416.84
+    },
+    {
+      "asin": "B07KMV94JF",
+      "url": "http://www.amazon.de/dp/B07KMV94JF",
+      "title": "PlayStation 4 Slim - Konsole (1TB, schwarz)",
+      "seller": "Sony Interactive Entertainment",
+      "price": 335.95
+    },
+    {
+      "asin": "B07WHSY2WT",
+      "url": "http://www.amazon.de/dp/B07WHSY2WT",
+      "title": "PlayStation 4 Slim - Konsole (1 TB, schwarz) inkl. FIFA 20 + 2 DualShock Controller",
+      "seller": "Sony Interactive Entertainment",
+      "price": 375.35
+    },
+    {
+      "asin": "B07V282WBB",
+      "url": "http://www.amazon.de/dp/B07V282WBB",
+      "title": "PlayStation 4 Slim - Konsole (500GB, Jet Black) + 2 Controller: Fortnite Neo Versa Bundle",
+      "seller": "Sony Interactive Entertainment",
+      "price": 399.99
+    },
+    {
+      "asin": "B01LQF9T5O",
+      "url": "http://www.amazon.de/dp/B01LQF9T5O",
+      "title": "Sony Playstation 4 Slim \u2013 1 TB \u2013 black",
+      "seller": "Sony Interactive Entertainment",
+      "price": 344.44
+    },
+    {
+      "asin": "B07WDKT7DP",
+      "url": "http://www.amazon.de/dp/B07WDKT7DP",
+      "title": "PlayStation 4 Pro - Konsole (1TB) inkl. FIFA 20",
+      "seller": "Sony",
+      "price": 418.19
+    },
+    {
+      "asin": "B074JB5ZNW",
+      "url": "http://www.amazon.de/dp/B074JB5ZNW",
+      "title": "Sony Playstation 4 Slim 1TB Black",
+      "seller": "Sony Interactive Entertainment",
+      "price": 342.99
+    },
+    {
+      "asin": "B07V29F7LW",
+      "url": "http://www.amazon.de/dp/B07V29F7LW",
+      "title": "PS4 - Konsole Black 500GB: Fortnite Neo-Versa-Bundle",
+      "seller": "Sony",
+      "price": 375.5
+    },
+    {
+      "asin": "B07G7XB6JQ",
+      "url": "http://www.amazon.de/dp/B07G7XB6JQ",
+      "title": "Sony Computer Entertainment - Playstation 4 Console 1TB - Fifa 19 Bundle (UK) /PS4 (1 GAMES)",
+      "seller": "Sony",
+      "price": 341.52
+    },
+    {
+      "asin": "B07TTB3SR2",
+      "url": "http://www.amazon.de/dp/B07TTB3SR2",
+      "title": "ASTRO Gaming A50 Wireless Headset and Base Station",
+      "seller": "ASTRO Gaming",
+      "price": 305.71
+    },
+    {
+      "asin": "B07YGJGFZC",
+      "url": "http://www.amazon.de/dp/B07YGJGFZC",
+      "title": "PlayStation 4 Virtual Reality Megapack - Edition 2 (inkl. Skyrim, Astro Bot Rescue Mission, VR Worlds, Resident Evil: Biohazard, Everybody\u00b4s Golf)",
+      "seller": "Sony Interactive Entertainment",
+      "price": 294.55
+    }
+  ]
+}
