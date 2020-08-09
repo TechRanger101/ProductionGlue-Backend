@@ -13,17 +13,21 @@ FILTERS = {
 BASE_URL = "http://www.amazon.de/"
 
 
-def get_chrome_web_driver(options):
+def getChromeWebDriver(options):
     return webdriver.Chrome('./chromedriver/chromedriver.exe', chrome_options=options)
 
 
-def get_web_driver_options():
+def getWebDriverOptions():
     return webdriver.ChromeOptions()
 
 
-def set_ignore_certificate_error(options):
+def setIgnoreCertificateError(options):
     options.add_argument('--ignore-certificate-errors')
 
 
-def set_browser_as_incognito(options):
+def setBrowserAsIncognito(options):
     options.add_argument('--incognito')
+
+
+def makeHeadless(options):
+    options.add_argument('--headless')
