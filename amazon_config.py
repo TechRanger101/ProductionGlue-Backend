@@ -1,29 +1,33 @@
 from selenium import webdriver
 
 DIRECTORY = 'reports'
-NAME = 'ps4'
-CURRENCY = '€'
-MIN_PRICE = '275'
-MAX_PRICE = '650'
+NAME = 'mobile'
+CURRENCY = '₹'
+MIN_PRICE = '10000'
+MAX_PRICE = '20000'
 FILTERS = {
     'min': MIN_PRICE,
     'max': MAX_PRICE
 }
 
-BASE_URL = "http://www.amazon.de/"
+BASE_URL = "http://www.amazon.in/"
 
 
-def get_chrome_web_driver(options):
+def getChromeWebDriver(options):
     return webdriver.Chrome('./chromedriver/chromedriver.exe', chrome_options=options)
 
 
-def get_web_driver_options():
+def getWebDriverOptions():
     return webdriver.ChromeOptions()
 
 
-def set_ignore_certificate_error(options):
+def setIgnoreCertificateError(options):
     options.add_argument('--ignore-certificate-errors')
 
 
-def set_browser_as_incognito(options):
+def setBrowserAsIncognito(options):
     options.add_argument('--incognito')
+
+
+def makeHeadless(options):
+    options.add_argument('--headless')
