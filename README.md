@@ -1,4 +1,4 @@
-# Amazon Price Tracker
+# Amazon Detail Grabber
 
 This tracker specfically designed for amazon.in so, may or may not work for other url
 
