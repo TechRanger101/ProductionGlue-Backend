@@ -8,7 +8,7 @@ Clone the repo and run pip install -r req.txt to install the required packages
 
 Can the price filter and searched item in amazon_config
 
-Go to the tracker.py file and run it
+Go to the tracker.py file and run it.
 
 You can remove comment in the set_headless() method in the tracker.py file method to make it headless i.e the browser will run internally
 
