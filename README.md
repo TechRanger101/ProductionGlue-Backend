@@ -4,9 +4,9 @@ This tracker specfically designed for amazon.in so, may or may not work for othe
 
 It scraps all the products of a specfic searched items and converts it's detail to json format
 
-Clone the repo and run pip install -r req.txt to install the required packages
+Clone the repo and run pip install -r req.txt to install the required packages.
 
-Can the price filter and searched item in amazon_config
+You can the price filter and searched item in amazon_config
 
 Go to the tracker.py file and run it.
 
