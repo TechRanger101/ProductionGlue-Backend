@@ -6,7 +6,7 @@ It scraps all the products of a specfic searched items and converts it's detail 
 
 Clone the repo and run pip install -r req.txt to install the required packages.
 
-You can the price filter and searched item in amazon_config
+You can the price filter and searched item in amazon_config.
 
 Go to the tracker.py file and run it.
 
