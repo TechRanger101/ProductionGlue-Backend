@@ -12,9 +12,7 @@ pip install -r req.txt
 ```
 It simply installs all the required packages in your device
 
-You can the price filter and searched item in amazon_config.py file to modify the searched item according to your wish
-
-
-You can remove comment in the set_headless() method in the tracker.py file method to make it headless i.e the browser will run internally
+You can change the searched item and price filter in amazon_config.py file to search for the according to your requirement\
+You can remove comment in the set_headless() method in the tracker.py file method to make the browser headless i.e the browser will run internally
 
 
