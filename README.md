@@ -10,7 +10,7 @@ After forking and cloning the repo in your machine, just run the command
 ```
 pip install -r req.txt
 ```
-It simply installs all the required packages in your device\
+It simply installs all the required packages in your device
 
 You can the price filter and searched item in amazon_config.py file to modify the searched item according to your wish
 
