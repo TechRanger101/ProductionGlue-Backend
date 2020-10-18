@@ -1,14 +1,19 @@
 # Amazon Detail Grabber
 
-This tracker specfically designed for amazon.in so, may or may not work for other url
+This python script grabs the details of all the items of a particular product and stores in a file in json format.<br/>
+It grabs product ID, title, price, url, and seller
+ ```
+ Note: This tracker specfically designed for amazon.in so, may or may not work for other urls 
+```
+## Usage
+After forking and cloning the repo in your machine, just run the command
+```
+pip install -r req.txt
+```
+It simply installs all the required packages in your device\
 
-It scraps all the products of a specfic searched items and converts it's detail to json format
+You can the price filter and searched item in amazon_config.py file to modify the searched item according to your wish
 
-Clone the repo and run pip install -r req.txt to install the required packages
-
-You can the price filter and searched item in amazon_config.
-
-Go to the tracker.py file and run it.
 
 You can remove comment in the set_headless() method in the tracker.py file method to make it headless i.e the browser will run internally
 
