@@ -1,5 +1,4 @@
 from selenium import webdriver
-
 DIRECTORY = 'reports'
 NAME = 'mobile'
 CURRENCY = '₹'
