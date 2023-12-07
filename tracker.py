@@ -1,7 +1,6 @@
 from datetime import datetime
 from logging import currentframe
-import time
-import json
+import time, json
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 from amazon_config import *
