@@ -1,0 +1,18 @@
+# AWS
+REGION = 'us-west-1'
+AWS_ID = 'AKIA...'
+AWS_SECRET_KEY = 'kr...'
+TB_NAMES = ['venue', 'vendor']
+
+# OPENAI
+OPENAI_API_KEY = 'sk-yNF...'
+EMBEDDING_MODEL = 'text-embedding-ada-002'
+CHAT_MODEL = 'gpt-4-1106-preview'
+
+# GOOGLE MAP
+GOOGLE_MAP_API_KEY = 'AIza...'
+
+#PINECONE
+PINECONE_API_KEY = 'edb...
+PINECONE_ENV = 'us-east-1-aws'
+PINECONE_INDEX = 'testkb'
